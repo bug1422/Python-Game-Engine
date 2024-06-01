@@ -21,8 +21,6 @@ class SceneRenderer:
         for obj in self.scene.objects:
             obj.render()
             
-        for obj in self.scene.HUD:
-            obj.render()
         self.scene.skybox.render()
 
     def render(self):

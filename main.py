@@ -28,7 +28,6 @@ class GraphicsEngine:
         self.ctx = mgl.create_context()
         # self.ctx.front_face = 'cw'
         self.ctx.enable(flags=mgl.DEPTH_TEST | mgl.CULL_FACE)
-        self.ctx.scissor = 0,0,1200,900
         # create an object to help track time
         self.clock = pg.time.Clock()
         self.time = 0

@@ -21,8 +21,6 @@ class Scene:
         app = self.app
         add = self.add_gui
 
-        add()
-
     def load(self):
         app = self.app
         add = self.add_object
